@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+
+
+
+}
+
+*:focus {
+    outline: none;
+
+}
+
+html,
+body {
+    height: 100%;
+    background-color: #FFFAF2;
+}
+
+#container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.feedback {
+    width: 519px;
+    height: 350px;
+    background-color: white;
+    position: relative;
+    padding: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 10px 25px rgba(220, 205, 181, 0.42);
+    border-radius: 15px;
+
+}
+
+.x {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+
+
+.feedback h1 {
+    width: 325px;
+    height: 54px;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.rate {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rate li {
+    padding: 25px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+
+
+.rate .active {
+    border-style: inset;
+    box-shadow: 0px 4px 25px #DBE0F0;
+    border: 1px solid #E0E1E5;
+    font-weight: 500;
+}
+
+
+.rate li img {
+    width: 60px;
+    height: 60px;
+
+}
+
+.rate li span {
+
+    font-size: 16px;
+    color: #212D59;
+    display: block;
+    margin-top: 15px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.close {
+    display: block;
+    background: #2F2D2C;
+    color: #fff;
+    padding: 18px 82px;
+    border: 2px solid #2F2D2C;
+    border-radius: 5px;
+    transition: background .3s;
+
+
+}
+
+.close:hover,
+.button-group button:last-child:hover {
+    background-color: transparent;
+    color: #2F2D2C;
+    font-weight: bold;
+
+
+
+}
+
+
+.message-box {
+    width: 400px;
+    background-color: white;
+    position: relative;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0px 10px 45px rgba(191, 124, 95, 0.2);
+    border-radius: 15px;
+
+
+}
+
+.message-box h1 {
+    margin-top: 15px;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.message-box p {
+    font-size: 16px;
+    width: 275px;
+    margin: auto;
+}
+
+.button-group {
+    margin-top: 40px;
+
+
+}
+
+.button-group button:last-child {
+    background-color: #2F2D2C;
+    color: white;
+    font-size: 16px;
+    padding: 18px 45px;
+    border-radius: 5px;
+    border: 2px solid #2F2D2C;
+    transition: background .3s;
+
+}
+
+.button-group button:first-child {
+    background: transparent;
+    color: #212D59;
+    font-size: 16px;
+    padding: 18px 45px;
+    border: 0;
+    border-radius: 5px;
+
+}
